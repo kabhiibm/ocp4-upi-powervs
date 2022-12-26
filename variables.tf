@@ -289,14 +289,14 @@ variable "installer_log_level" {
 variable "helpernode_repo" {
   type        = string
   description = "Set the repo URL for using ocp4-helpernode"
-  default     = "https://github.com/RedHatOfficial/ocp4-helpernode"
+  default     = "https://github.com/kabhiibm/ocp4-helpernode"
   # Repo for running ocp4 installations steps.
 }
 
 variable "helpernode_tag" {
   type        = string
   description = "Set the branch/tag name or commit# for using ocp4-helpernode repo"
-  default     = "fba129fe20682a466c62a632b0d9a5a863162bcf"
+  default     = "a3ce62c8e79188eab5ebb00a9de06721de2fbd56"
   # Checkout level for var.helpernode_repo which is used for setting up services required on bastion node
 }
 
